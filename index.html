@@ -3,8 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Instagram App</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <div class="container">
+        <div class="intro">
+            <div class="left stack-image"></div>
+            <div class="explanation">
+                <h1>The BJJ Warriors of Instagram!</h1>
+                <p>This app creates a photo stream of the top posts on Instagram for Brazilian Jiu Jitsu and MMA. If you like a picture, you can click on it and go to the original poster's profile. Please enjoy!</p>
+            </div>
+        </div>
+        <hr>
+        <div class="templates hidden">
+            <dl class="result question">
+                <dt>Question</dt>
+                <dd class="question-text"><a href="" target="_blank"></a></dd>
+                <dt>Asked</dt>
+                <dd class="asked-date"></dd>
+                <dt>Viewed</dt>
+                <dd class="viewed"></dd>
+                <dt>Asker</dt>
+                <dd class="asker"></dd>
+            </dl>
+            <div class="error">
+                <p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
