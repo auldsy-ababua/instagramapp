@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Instagram App</title>
+    <title>Tastekid API</title>
     <link type="text/css" rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -10,28 +10,33 @@
         <div class="intro">
             <div class="left stack-image"></div>
             <div class="explanation">
-                <h1>The BJJ Warriors of Instagram!</h1>
-                <p>This app creates a photo stream of the top posts on Instagram for Brazilian Jiu Jitsu and MMA. If you like a picture, you can click on it and go to the original poster's profile. Please enjoy!</p>
+                <h1>The Media Suggestion Portal!</h1>
+                <p>This app allows you to search for a band name, book, movie or show title, or author name to find related media that matches your tastes</p>
             </div>
         </div>
         <hr>
-        <div class="templates hidden">
-            <dl class="result question">
-                <dt>Question</dt>
-                <dd class="question-text"><a href="" target="_blank"></a></dd>
-                <dt>Asked</dt>
-                <dd class="asked-date"></dd>
-                <dt>Viewed</dt>
-                <dd class="viewed"></dd>
-                <dt>Asker</dt>
-                <dd class="asker"></dd>
-            </dl>
-            <div class="error">
-                <p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
+        <div class="stack">
+            <h3>Find New Media Here!</h3>
+            <p>Simply input a search term containing some band or author you like, and we'll handle the rest. If you want to input more than one entry, separate each entry with a comma. Sometimes it is useful to specify the type of a certain resource in the query. You can do this by prefacing your entry with one of the following: "band:", "movie:", "show:", "book:", "author:" or "game:". For example: "band:underworld, movie:harry potter"</p>
+            <form class="stats-getter">
+                <input id="term" type="text" placeholder='e.g., "radiohead"' name="tags" size="30" autofocus required>
+                <input id="getRecs" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="hidden">
+            <div class="results">
+                <h1 id="name"></h1>
+                <p id="teaser"></p>
+                <a href="" target="_blank" id="wikiLink">See the Wikipedia Page</a><br>
+                <a href="" target="_blank" id="tubeLink">See the Youtube Page</a>
             </div>
+        </div>
+        <div class="mediaItems">
+
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
+

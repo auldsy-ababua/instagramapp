@@ -12,7 +12,7 @@
 }
 
 .stack-image {
-    background: url('https://lh3.googleusercontent.com/aYbdIM1abwyVSUZLDKoE0CDZGRhlkpsaPOg9tNnBktUQYsXflwknnOn2Ge1Yr7rImGk=w300') no-repeat center center;
+    background: url('https://theblueandwhite.files.wordpress.com/2012/01/pic1.jpg') no-repeat center center;
     width: 200px;
     height: 200px;
     -webkit-background-size: cover;
@@ -29,19 +29,4 @@
 
 .stack {
     clear: both;
-}
-
-.inspiration {
-    margin-left: 3em;
-}
-
-.result {
-    border: 1px solid black;
-    padding: 5px;
-    margin: 0 auto 1em auto;
-}
-
-.error {
-    background-color: #F78181;
-    padding: 1em;
 }
